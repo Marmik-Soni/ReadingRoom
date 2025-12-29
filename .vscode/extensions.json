@@ -1,0 +1,27 @@
+{
+  "recommendations": [
+    // Essential
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+
+    // Tailwind CSS
+    "bradlc.vscode-tailwindcss",
+
+    // Git
+    "eamodio.gitlens",
+
+    // JavaScript/TypeScript
+    "formulahendry.auto-rename-tag",
+    "christian-kohler.path-intellisense",
+    "zignd.html-css-class-completion",
+
+    // Productivity
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+
+    // Next.js
+    "PulkitGangwar.nextjs-snippets"
+  ]
+}
