@@ -1,0 +1,55 @@
+name: Bug report
+description: File a bug report to help us improve
+labels: [bug]
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the bug.
+      placeholder: The app crashes when...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: What steps led to the issue?
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See error ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Logs
+      description: Drag-and-drop any screenshots or logs that may help.
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      description: OS, browser, device, commit SHA, etc.
+      placeholder: macOS 14, Chrome 122, commit abc123
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have searched existing issues for duplicates.
+          required: true
+        - label: I can reproduce this issue consistently.
+          required: false

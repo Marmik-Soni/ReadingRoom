@@ -115,6 +115,14 @@
     "ngClass"
   ],
 
+  // CSS Settings - Disable unknown at-rule warnings for Tailwind directives
+  "css.validate": true,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.validate": true,
+  "scss.lint.unknownAtRules": "ignore",
+  "less.validate": true,
+  "less.lint.unknownAtRules": "ignore",
+
   // Git Settings
   "git.enableSmartCommit": true,
   "git.confirmSync": false,

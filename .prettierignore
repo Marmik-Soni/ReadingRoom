@@ -8,6 +8,8 @@ node_modules
 out
 build
 dist
+coverage
+.turbo
 
 # Misc
 .DS_Store
@@ -22,6 +24,8 @@ pnpm-debug.log*
 # Local env files
 .env*.local
 .env
+.env.production
+.env.development
 
 # Vercel
 .vercel

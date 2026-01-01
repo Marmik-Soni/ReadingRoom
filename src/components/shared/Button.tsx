@@ -26,12 +26,12 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             "h-11 px-6 text-sm": size === "md",
             "h-12 px-8 text-base": size === "lg",
           },
-          className
+          className,
         )}
         {...props}
       />
     );
-  }
+  },
 );
 
 Button.displayName = "Button";

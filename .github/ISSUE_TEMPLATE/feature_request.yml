@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an idea or enhancement
+labels: [enhancement]
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature!
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the feature.
+      placeholder: Add support for ...
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Problem to Solve
+      description: What problem does this feature address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: How would you like to see this implemented?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternatives?
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have searched existing issues for duplicates.
+          required: true
